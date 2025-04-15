@@ -23,7 +23,7 @@ def predict_disease(image_path):
 
 if __name__ == "__main__":
     # Example usage
-    image_path = 'data/val/Apple___Black_rot/image (1000).JPG'  # Replace with your image path
+    image_path = 'dataset/val/Apple_Black_rot/d4ea8c73-7beb-4019-8a66-f60381c6fdc0___JR_FrgE.S 8601.JPG'  
     predicted_class, confidence = predict_disease(image_path)
     print(f'Predicted class: {predicted_class}')
     print(f'Confidence: {confidence:.4f}')
